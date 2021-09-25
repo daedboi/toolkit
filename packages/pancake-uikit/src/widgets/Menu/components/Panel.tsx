@@ -35,9 +35,9 @@ const StyledPanel = styled.div<{ isPushed: boolean; showMenu: boolean }>`
   }
 `;
 
-const RugDoc = styled.a<{ target: string; rel: string; href: string }>`
-  margin: 2%;
-`;
+// const RugDoc = styled.a<{ target: string; rel: string; href: string }>`
+//   margin: 2%;
+// `;
 
 const Audit = styled.a<{ target: string; rel: string; href: string }>`
   margin: 2%;
@@ -48,9 +48,9 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-        <RugDoc target="_blank" rel="noreferrer" href="https://rugdoc.io/project/morpheusswap/">
+        {/* <RugDoc target="_blank" rel="noreferrer" href="https://rugdoc.io/project/morpheusswap/">
           <img src="/images/rugdoc-dark.png" />
-        </RugDoc>
+        </RugDoc> */}
         <Audit target="_blank" rel="noreferrer" href="https://paladinsec.co/projects/morpheus-swap/">
           <img src="https://paladinsec.co/pld/assets/audited-by-paladin-standard.svg" />
         </Audit>
