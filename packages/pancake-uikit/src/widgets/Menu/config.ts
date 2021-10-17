@@ -140,21 +140,26 @@ export const links = [
 ];
 
 export const socials = [
+  // {
+  //   label: "Telegram",
+  //   icon: "TelegramIcon",
+  //   items: [
+  //     {
+  //       label: "English",
+  //       href: "https://t.me/MorpheusSwapFinance",
+  //     },
+  //   ],
+  // },
   {
-    label: "Telegram",
-    icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/MorpheusSwapFinance",
-      },
-    ],
+    label: "Discord",
+    icon: "DiscordIcon",
+    href: "https://discord.gg/TR7zzfT2ru",
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
     href: "https://twitter.com/MorpheusSwap",
-  },  
+  },
 ];
 
 export const MENU_HEIGHT = 64;
