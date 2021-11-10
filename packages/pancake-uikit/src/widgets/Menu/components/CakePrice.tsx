@@ -28,10 +28,11 @@ const CakePrice: React.FC<Props> = ({ cakePriceUsd }) => {
       target="_blank"
     >
 
-      <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
+      <Text color="textSubtle" bold>PILLS: {`$${cakePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
-    <Skeleton width={80} height={24} />
+    // <Skeleton width={80} height={24} />
+    <Text></Text>
   );
 };
 
