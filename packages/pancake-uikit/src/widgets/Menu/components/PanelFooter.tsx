@@ -20,8 +20,9 @@ const Container = styled.div`
 
 const SettingsEntry = styled.div`
   display: flex;
+  width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: ${MENU_ENTRY_HEIGHT}px;
   padding: 0 8px;
 `;
@@ -60,8 +61,8 @@ const PanelFooter: React.FC<Props> = ({
         <CakePrice cakePriceUsd={cakePriceUsd} />
         {/* <SocialLinks /> */}
       </SocialEntry>
-      <div>
-        <p><a href="https://info.morpheusswap.finance/" target="_blank"><u>Analytics<u/></a></p>
+      <div style={{textAlign: 'center'}}>
+        <p><a href="https://info.morpheusswap.finance/" target="_blank" color="textSubtle"><u>Analytics<u/></a></p>
       </div>
       <SettingsEntry>
         <SocialLinks />
