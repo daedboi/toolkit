@@ -62,7 +62,7 @@ const PanelFooter: React.FC<Props> = ({
         {/* <SocialLinks /> */}
       </SocialEntry>
       <div style={{textAlign: 'center'}}>
-        <p><a href="https://info.morpheusswap.finance/" target="_blank" color="textSubtle"><u>Analytics<u/></a></p>
+        <p><a href="https://info.morpheusswap.finance/" target="_blank" style={{color: 'rgb(186, 187, 186)'}}><u>Analytics<u/></a></p>
       </div>
       <SettingsEntry>
         <SocialLinks />
