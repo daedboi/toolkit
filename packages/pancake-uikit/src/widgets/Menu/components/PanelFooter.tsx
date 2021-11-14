@@ -60,6 +60,9 @@ const PanelFooter: React.FC<Props> = ({
         <CakePrice cakePriceUsd={cakePriceUsd} />
         {/* <SocialLinks /> */}
       </SocialEntry>
+      <div>
+        <p><a href="https://info.morpheusswap.finance/" target="_blank"><u>Analytics<u/></a></p>
+      </div>
       <SettingsEntry>
         <SocialLinks />
         {/* <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
